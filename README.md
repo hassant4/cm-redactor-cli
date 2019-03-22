@@ -14,7 +14,7 @@ To use as a module:
 ```
 from redact import Redactor
 ...
-redactor=Redactor()
+redactor = Redactor()
 redacted = redactor.apply_rules('My email is contact@chattermill.io')
 ```
 
